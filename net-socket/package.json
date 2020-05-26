@@ -1,0 +1,15 @@
+{
+  "name": "net-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "nodemon client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

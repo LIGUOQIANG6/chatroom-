@@ -1,0 +1,105 @@
+.container{
+  padding: 30px;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 5px 5px 5px #000;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.warpper{
+  flex: 1;
+  overflow: auto;
+  height: 100%;
+}
+.warpper ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.warpper ul li{
+  width: 75%;
+  /* height: 55px; */
+  background: #87CEEB;
+  color: white;
+  margin: 10px 0;
+  border-radius: 10px;
+  line-height: 55px;
+  text-align: left;
+  padding: 0 10px;
+  white-space: normal;
+  word-break:break-all;
+}
+.warpper ul li:nth-child(2n){
+  align-self: flex-end;
+  background: #FFC0CB;
+}
+.msg{
+  /* width: 100%; */
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.msg input{
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.msg button{
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #87CEEB;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.name-box{
+  position: fixed;
+  left: 0;right: 0;top:0;bottom: 0;
+  margin: auto;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-box input{
+  width: 80%;
+  height: 30px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 1px solid #87CEEB;
+  margin-bottom: 10px;
+}
+.name-box .btn-box{
+  display: flex;
+  justify-content: space-between;
+}
+.name-box .btn-box button{
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #87CEEB;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
